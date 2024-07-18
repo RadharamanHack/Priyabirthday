@@ -1,0 +1,66 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+    background-color: #c6b7c3;
+}
+
+.birthday-wish {
+	background-color: #FFD7BE;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	width: 90%;
+	max-width: 300px;
+	margin: 40px auto;
+}
+
+.cake {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+
+h1 {
+	font-size: 24px;
+	color: #333;
+}
+p {
+	font-size: 16px;
+	color: #666;
+}
+
+button {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+@media only screen and (max-width: 600px) {
+	.birthday-wish {
+		width: 100%;
+		margin: 20px;
+		padding: 15px;
+	}
+	.cake {
+		width: 80px;
+		height: 80px;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	p {
+		font-size: 14px;
+	}
+	button {
+		padding: 5px 10px;
+	}
+}
